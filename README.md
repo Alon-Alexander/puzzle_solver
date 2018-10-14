@@ -138,7 +138,9 @@ Let's copy the shuffled image to our current working folder by executing:
 $ cp puzzle_solver/example/shuffled.png shuffled.png
 ```
 
-Now that we have puzzle to solve we can use the solver to solve it. Run the solver:
+![puzzle example](example/shuffled.png "Puzzle Example")
+
+Now that we have a puzzle to solve we can use the solver to solve it. Run the solver:
 
 ```sh
 # For windows users
@@ -151,6 +153,8 @@ $ python3 puzzle_solver -i shuffled.png -o solved.png
 After the script finishes you are supposed to have another file in your current folder called `solved.png`.
 If you open this file you will see the solved puzzle (the same as `puzzle_solver/example/orig.png` and `puzzle_solver/example/solved.png`).
 
+![solved puzzle example](example/solved.png "Solved Puzzled Example")
+
 ## Built With
 
 * [Pillow](https://pillow.readthedocs.io/) - The package used for manipulating images.
@@ -161,4 +165,4 @@ If you open this file you will see the solved puzzle (the same as `puzzle_solver
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
